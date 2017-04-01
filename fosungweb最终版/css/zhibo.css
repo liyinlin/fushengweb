@@ -1,0 +1,23 @@
+.ly-baner{
+	background: url(../img/zhibobane-1_01.png) 0 0 no-repeat;
+}
+.ly-pp1{
+	height:100px;
+	background:url(../img/zhibo-1.png) center center no-repeat;
+}
+.ly-pp2{
+	height:100px;
+	background:url(../img/zhibo-2.png) center center no-repeat;
+}
+.ly-pp3{
+	height:100px;
+	background:url(../img/zhibo-3.png) center center no-repeat;
+	
+}
+.ly-pp4{
+	height:100px;
+	background:url(../img/jp-2.png) center center no-repeat;
+}
+.lylds img{
+	margin-left:215px;
+}

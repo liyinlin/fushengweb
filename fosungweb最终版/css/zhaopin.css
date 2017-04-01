@@ -1,0 +1,29 @@
+.lyzp1{
+	position: relative;
+}
+.lyhe1{
+	width: 150px;
+  	border-top:1px solid #727272;
+    position: absolute;
+    left: 295px;
+    top: 48px;
+}
+.lyhe2{
+	left: 592px;
+}
+.lyzp1 .lzpus{
+	padding:30px 50px 0;
+}
+.lyzp1 .lzpus li{
+	margin-top: 10px;
+	font-size: 18px;
+}
+.lyzp1 .lzpus li a{
+	font-size: 18px;
+}
+.lusda{
+	vertical-align: middle;
+}
+.lyzp1 .lzsus{
+	padding-bottom: 120px;
+}

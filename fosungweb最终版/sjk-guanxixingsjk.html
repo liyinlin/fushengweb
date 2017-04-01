@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="renderer" content="webkit">
+		<title>数据库关系型数据库</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/head.css" />
+		<link rel="stylesheet" type="text/css" href="css/info.css">
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+		<style type="text/css">
+			.data-product ul li,.data-product-light ul li{
+			    cursor: default;
+			}
+			.database-nav{
+			    position: absolute;
+			    top: 600px;
+			 
+			}
+		</style>
+		<!--[if IE 8]>
+			<style type="text/css">
+			.nav .ls .ss{
+			background:transparent;
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#c8000000,endColorstr=#c8000000);
+			zoom: 1;
+			}
+			</style>
+			<![endif]-->
+	</head>
+	<body>
+		<!--返回顶部-->
+		<div class="go-top dn" id="go-top">
+		    <a href="javascript:;" class="go"></a>
+		</div>
+		<!--------------------------------头部部分导航---------------------->
+		<div class="head">
+			<div class="cen clear">
+				<a class="lya-s" href="index.html"></a>
+				<ol class="lyosl">
+					<li>证券代码：831480</li>
+					<li>证券名称：福生佳信</li>
+				</ol>
+				<ul id="nav" class="nav clear">
+					<li class="ls">
+						<a class="las" href="">产品</a>
+						<div class="ss">
+							<ol class="ss-cen">
+								<li class="lyss">云存储</li>
+								<li class="pad">
+									<a href="yuncunchu.html">云存储</a>
+								</li>
+								<li class="pad">
+									<a href="chuanshusped.html">传输加速</a>
+								</li>
+								<li class="pad">
+									<a href="neirongfenfaCDN.html">内容分发网路(CDN)</a>
+								</li>
+								<li class="pad">
+									<a href="yunyingpan.html">云硬盘(CDS)</a>
+								</li>
+							</ol>
+							<ol class="ss-cen">
+								<li class=" lyss">云视频</li>
+								<li class="pad">
+									<a href="bzdianbo.html">标准点播</a>
+								</li>
+								<li class="pad">
+									<a href="zhengzaijianshe.html">视频鉴黄</a>
+								</li>
+								<li class="pad">
+									<a href="weishiping.html">微视频</a>
+								</li>
+								<li class="pad">
+									<a href="zhengzaijianshe.html">媒体转码</a>
+								</li>
+							</ol>
+							<ol class="ss-cen">
+								<li class=" lyss">云直播</li>
+								<li class="pad">
+									<a href="bzzhibo.html">标准直播</a>
+								</li>
+								<li class="pad">
+									<a href="yidongzhibo.html">移动直播</a>
+								</li>
+								<li class="pad">
+									<a href="zhengzaijianshe.html">VR直播</a>
+								</li>
+							</ol>
+							<ol class="ss-cen">
+								<li class=" lyss">云数据</li>
+								<li id="lymk" class="pad lymk">
+									<a href="sjk-guanxixingsjk.html">关系数据库</a><br />
+								</li>
+								<li id="lymk" class="pad lymk">
+									<a href="sjk-NoSQLsjk.html">NoSQL数据库</a><br />
+								</li>
+							</ol>
+							<!--<ol class="ss-cen">
+								<li class=" lyss">云市场</li>
+							</ol>-->
+						</div>
+					</li>
+					<!--<li class="ls"><a class="las"  href="">服务</a>
+						<div class="ss head-ss">
+							<ol class="ss-cen">
+								<li class="lyss">镜像服务</li>
+							</ol>
+							<ol class="ss-cen">
+								<li class=" lyss">运维服务</li>
+							</ol>
+							<ol class="ss-cen">
+								<li class=" lyss">软件服务</li>
+							</ol>
+						</div>
+					</li>-->
+					<li class="ls">
+						<a class="las" href="">解决方案</a>
+						<div class="ss head-ss1">
+							<ol class="ss-cen">
+								<li class="lyss">政务解决方案</li>
+								<li class="pad">
+									<a href="dengtadangjian.html">“ 灯塔 ”党建</a>
+								</li>
+								<li class="pad">
+									<a href="jingzhunfupin.html">精准扶贫</a>
+								</li>
+							</ol>
+							<ol class="ss-cen">
+								<li class=" lyss">行业解决方案</li>
+								<li class="pad">
+									<a href="meilixc.html">美丽乡村</a>
+								</li>
+								<li class="pad">
+									<a href="zhengzaijianshe.html">教育直播</a>
+								</li>
+								<li class="pad">
+									<a href="xitongjicheng.html">系统集成</a>
+								</li>
+							</ol>
+							<!--<ol class="ss-cen">
+								<li class="lyss">营销解决方案</li>
+								<li class="pad">
+									<a href="zhengzaijianshe.html">创意农业</a>
+								</li>
+								<li class="pad">
+									<a href="zhengzaijianshe.html">品牌管理</a>
+								</li>
+
+							</ol>-->
+						</div>
+					</li>
+					<li class="ls">
+						<a class="las" href="guanyufs.html">关于我们</a>
+						<div class="ss head-ss1">
+							<ol class="ss-cen">
+								<li class="lyss">关于我们</li>
+								<li class="pad">
+									<a href="guanyufs.html">关于福生</a>
+								</li>
+								<li class="pad">
+									<a href="pinpaiwenhua.html">品牌文化</a>
+								</li>
+								<li class="pad">
+									<a href="zizhirongyu.html">资质荣誉</a>
+								</li>
+							</ol>
+							<ol class="ss-cen">
+								<li class=" lyss">加入我们</li>
+								<li class="pad">
+									<a href="tuanduihuodong.html">团队活动</a>
+								</li>
+								<li class="pad">
+									<a href="zuixinzhaopin.html">最新招聘</a>
+								</li>
+							</ol>
+
+						</div>
+					</li>
+					<li class="ls">
+						<a class="las" href="">投资者关系</a>
+						<div class="ss head-ss">
+							<ol class="ss-cen">
+								<li class="lyss lyss1">
+									<a href="gongsigonggao.html">公司公告</a>
+								</li>
+							</ol>
+							<ol class="ss-cen">
+								<li class=" lyss lyss2">
+									<a href="touzizhezixun.html">投资者咨询</a>
+								</li>
+							</ol>
+						</div>
+					</li>
+					<li class="ls">
+						<a class="las" href="xinwenzhongxin.html">新闻中心</a>
+					</li>
+
+					<li class="ls">
+						<a class="las" href="http://119.188.4.80:81">员工入口(OA)</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		<!--
+        	时间：2017-03-20
+        	描述：
+        -->
+        <div class="database-banner">
+        	
+        </div>
+        <div class="database-nav">
+        		<div class="nav-width">
+        		<ul>
+        			<li><a href="#mysql">MySQL</a></li>
+        			<li><a href="#PostgreSQL">PostgreSQL</a></li>
+        		</ul>
+        		</div>
+        	</div>
+        <div class="mysql" id="mysql">
+        	<h2>MySQL</h2>
+        	<p>基于计算技术高可用、高性能数据服务，具备备份回档、数据监控、快速扩容，支持双主热备架构及高性能SSD磁盘，让用户轻松云端部署并用于各类应用场景基于计算技术的高可用、高性能数据服务，具备备份回档、数据监控、快速扩容，支持双主热备架构及高性能SSD磁盘，让用户轻松云端部署并用于各类应用场景。</p>
+        	<h3>产品功能</h3>
+        	<div class="data-product clear">
+        		<ul>
+        			<li>
+        				<img src="img/data01.png" />
+        				<h2>高性能</h2>
+        				<p>硬件保障、内核优化、海量数据管理、多种网络接入方式、支持API</p>
+        			</li>
+        			<li>
+        				<img src="img/data05.png" />
+        				<h2>高可用性架构</h2>
+        				<p>多种部署架构，完善的热备与冷备，容灾能力，保障业务可用性</p>
+        			</li>
+        			<li>
+        				<img src="img/data02.png" />
+        				<h2>简单易用</h2>
+        				<p>备份恢复、误删数据、版本升级、监控报警、故障切换、性能诊断</p>
+        			</li>
+        			<li>
+        				<img src="img/data03.png" />
+        				<h2>高扩展性</h2>
+        				<p style="text-align: center;">弹性扩展，按需购买，按量付费</p>
+        			</li>
+        			<li>
+        				<img src="img/data04.png" />
+        				<h2>安全可靠性</h2>
+        				<p style="text-align: center;">最高安全等级，多种安全防护，存储高可靠</p>
+        			</li>
+        		</ul>
+        	</div>
+        	<h3>产品亮点</h3>
+        	<div class="data-product-light clear">
+        		<ul>
+        			<li>
+        				<div class="pro-icon1"></div>
+        				<div class="light-r">
+        				   <h2>安全保障</h2>
+        				   <p>保护冗余、自动备份与手动备份相结合，数据库回档功能</p>
+        				</div>
+        			</li>
+        			<li>
+        				<div class="pro-icon2"></div>
+        				<div class="light-r">
+        				   <h2>灵活易用</h2>
+        				   <p>灵活易用弹性部署,控制台监控、分析数据，根据需求弹性扩容</p>
+        				</div>
+        			</li>
+        			<li>
+        				<div class="pro-icon3"></div>
+        				<div class="light-r">
+        				   <h2>高性能</h2>
+        				   <p>专项内核优化，多种部署架构，满足多种可用性需求</p>
+        				</div>
+        			</li>
+        			<li>
+        				<div class="pro-icon4"></div>
+        				<div class="light-r">
+        				   <h2>成本更低</h2>
+        				   <p>可根据业务需求开通，防止资源闲置，灵活配置，合理搭配</p>
+        				</div>
+        			</li>
+        			<li>
+        				<div class="pro-icon5"></div>
+        				<div class="light-r">
+        				   <h2>高并发</h2>
+        				   <p id="PostgreSQL">精心打磨，挑战性能极限，支持百万用户并发</p>
+        				</div>
+        			</li>
+        		</ul>
+        	</div>
+        </div>
+        <div class="mysql">
+        	<h2>PostgreSQL</h2>
+        	<p>基于成熟云计算技术的高可用、高性能的数据库服务，面向企业复杂问题，在线事务场景处理，提供灾备、备份、监控等全套解决方案，被誉为“最先进的开源数据库”。</p>
+        	<h3>产品功能</h3>
+        	<div class="data-product clear">
+        		<ul>
+        			<li>
+        				<img src="img/data06.png" />
+        				<h2>数据分析</h2>
+        				<p style="text-align: center;">空间数据分析类型多样，支持控制台运维管理操作</p>
+        			</li>
+        			<li>
+        				<img src="img/data07.png" />
+        				<h2>功能丰富</h2>
+        				<p>支持中文分词、自定义词库，可对现有词库进行智能学习处理，持续优化</p>
+        			</li>
+        			<li>
+        				<img src="img/data02.png" />
+        				<h2>简单易用</h2>
+        				<p>备份恢复、误删数据、版本升级、监控报警、故障切换、性能诊断</p>
+        			</li>
+        			<li>
+        				<img src="img/data08.png" />
+        				<h2>可靠性</h2>
+        				<p style="text-align: center;">数据可靠，自动备份手动备份相结合</p>
+        			</li>
+        			<li>
+        				<img src="img/data09.png" />
+        				<h2>云存储扩展</h2>
+        				<p>支持云存储扩展，可读，可写，空间无限扩展</p>
+        			</li>
+        		</ul>
+        	</div>
+        	<h3>产品亮点</h3>
+        	<div class="data-product-light clear">
+        		<ul>
+        			<li>
+        				<div class="pro-icon6"></div>
+        				<div class="light-r">
+        				   <h2>处理分析</h2>
+        				   <p>支持复杂查询，空间处理分析能力，可提供高效、复杂查询服务</p>
+        				</div>
+        			</li>
+        			<li>
+        				<div class="pro-icon7"></div>
+        				<div class="light-r">
+        				   <h2>安全性强</h2>
+        				   <p>数据库安全可靠，SQL设计、支持IP白名单、身份隔离</p>
+        				</div>
+        			</li>
+        			<li>
+        				<div class="pro-icon8"></div>
+        				<div class="light-r">
+        				   <h2>多类型支持</h2>
+        				   <p>支持众多插件 ，工具化管理，满足多类型需求</p>
+        				</div>
+        			</li>
+        			<li>
+        				<div class="pro-icon9"></div>
+        				<div class="light-r">
+        				   <h2>兼容性</h2>
+        				   <p>数据类型丰富，与NoSQL兼容</p>
+        				</div>
+        			</li>
+        		</ul>
+        	</div>
+        </div>
+        <div class="database-scene clear">
+        	<h2>关系型数据库场景应用</h2>
+        	<ul>
+        		<li>
+        			<span>风险控制</span>
+        			<img src="img/mysql-img01.jpg" />
+        		</li>
+        		<li>
+        			<span>农村电商</span>
+        			<img src="img/mysql-img02.jpg" />
+        		</li>
+        		<li>
+        			<span>高可用场景</span>
+        			<img src="img/mysql-img03.jpg" />
+        		</li>
+        		<li>
+        			<span>数据计算</span>
+        			<img src="img/mysql-img04.jpg" />
+        		</li>
+        		<li>
+        			<span>在线教育</span>
+        			<img src="img/mysql-img05.jpg" />
+        		</li>
+        		<li>
+        			<span>海量存储 空间扩展</span>
+        			<img src="img/mysql-img06.jpg" />
+        		</li>
+        	</ul>
+        	
+        </div>
+		<!--------------------------------------页脚-------------------------------------->
+		<div class="footer">
+			<div class="foocen">
+				<div class="fot-lx">
+					<ul class="fo-ul">
+						<li class="fo-co">产品</li>
+						<li class="fo-top"><a href="yuncunchu.html">云存储</a></li>
+						<li><a href="bzdianbo.html">云视频</a></li>
+						<li><a href="bzdianbo.html">云直播</a></li>
+						<li><a href="sjk-guanxixingsjk.html">数据库</a></li>
+						<!--<li><a href="">云市场(生态)</a></li>-->
+					</ul>
+					<!--<ul class="fo-ul">
+						<li class="fo-co">服务支持</li>
+						<li class="fo-top"><a href="">镜像服务</a></li>
+						<li><a href="">运维服务</a></li>
+						<li><a href="">软件服务</a></li>
+					</ul>-->
+					<ul class="fo-ul">
+						<li class="fo-co">解决方案</li>
+						<li class="fo-top"><a href="dengtadangjian.html">政务解决方案</a></li>
+						<li><a href="meilixc.html">行业解决方案</a></li>
+						<!--<li><a href="">营销解决方案</a></li>-->
+					</ul>
+					<ul class="fo-ul">
+						<li class="fo-co">关于我们</li>
+						<li class="fo-top"><a href="guanyufs.html">关于福生</a></li>
+						<li><a href="zizhirongyu.html">资质荣誉</a></li>
+						<li><a href="zuixinzhaopin.html">加入福生</a></li>
+						<li><a href="zuixinzhaopin.html">联系福生</a></li>
+					</ul>
+					<ul class="fo-ul">
+						<li class="fo-co">投资者关系</li>
+						<li class="fo-top"><a href="gongsigonggao.html">公司公告</a></li>
+						<li><a href="touzizhezixun.html">投资者咨询</a></li>
+					</ul>
+					<ul class="fo-ul">
+						<li class="fo-co">新闻中心</li>
+						<li class="fo-top"><a href="xinwenzhongxin.html">公司新闻</a></li>
+						<li><a href="xinwenzhongxin.html">行业资讯</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="fot-zizhi">
+				<p>©  2017  山东福生佳信科技股份有限公司</p>
+				<p>鲁ICP备07022867号-1</p>
+			</div>
+		</div>
+	</body>
+	<script src="js/index.js" type="text/javascript"></script>
+	<script src="js/fanhui.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function (){
+			var sd=0;
+			$(window).scroll(function (){
+				sd=$(window).scrollTop();
+				console.log(sd);
+				if(sd>=600){
+					$('.database-nav').eq(0).css({'position':'fixed','top':0,'z-index':100})
+				}else {
+					$('.database-nav').eq(0).css({'position':'absolute','top':'600px'})
+				}
+			})
+		})
+	</script>
+</html>

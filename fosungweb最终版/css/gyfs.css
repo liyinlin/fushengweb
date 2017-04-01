@@ -1,0 +1,366 @@
+.lygy-cen{
+	width: 1280px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.lygy-le{
+	padding: 0 20px;
+	color: #545454;
+}
+.lygy-ri{
+	width: 998px;
+	border-left: 2px solid #c9cacb;
+}
+.lygy-le h1{
+	font-size: 22px;
+} 
+.lygy-le img {
+	width: 20px;
+}
+.lyuls li{
+	padding:15px 45px 15px 20px;
+	border-bottom: 1px solid #c9cacb;
+	cursor: pointer;
+}
+.lyleim{
+	background:url(../img/fsyun.png) 20px center no-repeat;
+	background-size: 20px;
+}
+.consult{
+	background:url(../img/phone-icon.png) 20px center no-repeat;
+	background-size: 20px;
+}
+.notice{
+	background:url(../img/notice-icon.png) 20px center no-repeat;
+	background-size: 20px;
+}
+.lyleim1{
+	background:url(../img/easyicon.png)20px center no-repeat;
+	background-size: 20px;
+}
+.lyleim2{
+	background: url(../img/easyicon2.png) 20px center no-repeat;
+	background-size: 20px;
+}
+.lyleim span{
+	margin-left: 30px;
+}
+.lycli{
+	background: url(../img/sjt-1.png) 205px center no-repeat;
+	background-size: 20px;
+}
+.lyuls .lyno{
+	border-bottom: 0px;
+}
+.lyno div{
+	padding-left: 0;
+}
+.lyno .lyd1{
+	background: url(../img/easyicon1.png) 0 center no-repeat;
+	background-size:20px ;
+}
+.lyno span{
+	margin-left: 30px;
+}
+.lyno .lyd2{
+	background: url(../img/huabing.png) 0 center no-repeat;
+	background-size:20px ;
+}
+.lyno div {
+	padding: 15px 0;
+}
+.lylog img{
+	width: 998px;
+	height: 515px;
+}
+.lygy-ri  .ly-cpfj,.lylc .ly-cos{
+	font-size: 24px;
+    text-align: center;
+    padding: 50px 0  20px;
+    max-width:200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.lysd{
+	position: relative;
+}
+.lysd p{
+	padding: 30px 50px  0;
+	font-size: 18px;
+	text-indent: 40px;
+	line-height: 35px;
+	text-align:justify;
+}
+.lylc{
+	position: relative;
+	padding: 0 50px;
+}
+.lylc .lylo{
+	padding-bottom: 30px;
+}
+.lylc .lyh{
+	font-size: 18px;
+}
+.lylc{
+	padding: 0 50px 100px;
+}
+.lylc .lylo{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.lylc .lys1{
+	margin-left: 140px;
+}
+.lylc .lys2{
+	margin-left:15px;
+	color: #C9CACB;
+	font-size: 12px;
+}
+.lylc .lyss{
+	font-size: 24px;
+	color: #24b5e3;
+	margin-left:60px;
+}
+.lydin{
+	width: 450px;
+	height:44px;
+	border-right:4px dotted #3e3e3e;
+}
+.lydi2{
+	height:94px;	
+}
+.lyh .lyss11{
+	margin-left:177px ;
+}
+.lyh .lyss12{
+	margin-left:196px ;
+}
+.lyh .lylic1{
+	color: #C9CACB;
+	font-size: 12px;
+	margin-left: 437px;
+}
+.lydi2n{
+	height: 22px;
+	font-size: 24px;
+	color: #24b5e3;
+}
+.lylc .lyml{
+	margin-left: 423px;
+}
+.lylc .lysl2{
+	margin-left: 4px;
+}
+.lyzp1 h3{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.lylc .lyss{
+	font-size: 24px;
+	color: #24b5e3;
+}
+.logo_shiy{
+	padding:40px 0 20px;
+	text-align: center;
+}
+.logo_shiy img{
+	width: 516px;
+	height: 160px;
+}
+.lylc ul li{
+	float: left;
+	margin:0 10px 30px;
+}
+.lylc ul li h2{
+	font-size: 20px;
+}
+.lylc ul li p{
+	font-size: 16px;
+	color: #666;
+}
+.line{
+	position:absolute;
+	border-top: 1px solid #ccc;
+	width: 580px;
+	margin: 0 auto;
+	top:118px;
+	left: 200px;
+	z-index: -10;
+}
+.lines{
+	position:absolute;
+	border-top: 1px solid #ccc;
+	width: 580px;
+	margin: 0 auto;
+	top:97px;
+	left: 200px;
+	z-index: -10;
+}
+/*********资质荣誉*************/
+.honor{
+	padding:20px 30px;	
+}
+.honor ul li{
+	position: relative;
+	display: block;
+	float: left;
+	width: 291px;
+	height: 203px;
+	margin:5px 10px;
+	-webkit-box-shadow:5px 5px 5px rgba(230, 230, 230, .8);  
+    -moz-box-shadow:5px 5px 5px rgba(230, 230, 230, .8);  
+    box-shadow:5px 5px 5px rgba(230, 230, 230, .8); 
+}
+.honor ul li.honor-a{
+	background: url(../img/honor1.jpg) no-repeat center center;
+}
+.honor ul li.honor-a:hover{
+	background: url(../img/honor_01.jpg) no-repeat center center;
+}
+.honor ul li.honor-b{
+	background: url(../img/honor2.jpg) no-repeat center center;
+}
+.honor ul li.honor-b:hover{
+	background: url(../img/honor_02.jpg) no-repeat center center;
+}
+.honor ul li.honor-c{
+	background: url(../img/honor3.jpg) no-repeat center center;
+}
+.honor ul li.honor-c:hover{
+	background: url(../img/honor_03.jpg) no-repeat center center;
+}
+.honor ul li.honor-d{
+	background: url(../img/honor4.jpg) no-repeat center center;
+}
+.honor ul li.honor-d:hover{
+	background: url(../img/honor_04.jpg) no-repeat center center;
+}
+.honor ul li.honor-e{
+	background: url(../img/honor5.jpg) no-repeat center center;
+}
+.honor ul li.honor-e:hover{
+	background: url(../img/honor_05.jpg) no-repeat center center;
+}
+.honor ul li.honor-f{
+	background: url(../img/honor6.jpg) no-repeat center center;
+}
+.honor ul li.honor-f:hover{
+	background: url(../img/honor_06.jpg) no-repeat center center;
+}
+.honor ul li.honor-g{
+	background: url(../img/honor7.jpg) no-repeat center center;
+}
+.honor ul li.honor-g:hover{
+	background: url(../img/honor_07.jpg) no-repeat center center;
+}
+.honor ul li:hover a p{
+    display: none;
+}
+.honor ul li a{
+	position: absolute;
+	top:0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: block;
+	width: 291px;
+	height: 203px;
+}
+/*.honor ul li a:hover{
+	display: block;
+	width: 291px;
+	height: 203px;
+	background: rgba(63,114,193,.7);
+	z-index: 100;
+}
+.honor ul li a p{
+	display: none;
+}*/
+.honor ul li a p{
+	display: block;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	padding:70px 75px;
+}
+.iso{
+	padding:20px 30px 200px;	
+}
+.iso ul li{
+	position: relative;
+	display: block;
+	float: left;
+	width: 203px;
+	height: 291px;
+	margin:5px 10px;
+	-webkit-box-shadow:5px 5px 5px rgba(230, 230, 230, .8);  
+    -moz-box-shadow:5px 5px 5px rgba(230, 230, 230, .8);  
+    box-shadow:5px 5px 5px rgba(230, 230, 230, .8); 
+}
+.iso ul li.iso-a{
+	background: url(../img/honor8.jpg) no-repeat center center;
+}
+.iso ul li.iso-a:hover{
+	background: url(../img/honor_08.jpg) no-repeat center center;
+}
+.iso ul li.iso-b{
+	background: url(../img/honor9.jpg) no-repeat center center;
+}
+.iso ul li.iso-b:hover{
+	background: url(../img/honor_09.jpg) no-repeat center center;
+}
+.iso ul li a{
+	position: absolute;
+	top:0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: block;
+	width: 203px;
+	height: 291px;
+}
+/*.iso ul li a:hover{
+	display: block;
+	width: 203px;
+	height: 291px;
+	background: rgba(63,114,193,.7);
+	z-index: 100;
+}
+.iso ul li a p{
+	display: none;
+}*/
+.iso ul li a p{
+	display: block;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	padding:90px 55px;
+}
+/*********投资者关系*************/
+.consult-mail >p{
+	padding: 0;
+}
+.notices {
+	padding:20px 40px 180px;
+}
+.notices ul li{
+	line-height:40px ;
+	border-bottom: 1px solid #ccc;
+	padding-left: 30px;
+	background: url(../img/dot-def.png) no-repeat left center;
+}
+.notices ul li:hover{
+	background: url(../img/dot-blue.png) no-repeat left center;
+	color: #00C1F4;
+	cursor: pointer;
+}
+.notices ul li span{
+	float: right;
+	padding-left: 30px;
+	/*background: url(../img/download.png) no-repeat left center;*/
+}
+.notices ul li span a{
+	color: #1c27c0;
+}
+	

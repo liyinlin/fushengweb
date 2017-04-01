@@ -1,0 +1,561 @@
+
+/******************************bander*******************************************/
+.ly-baner{
+	width: 100%;
+	height:675px;
+	background: url(../img/banner.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.ly-bzdb{
+	color: #fff;
+	position: relative;
+}
+.ly-bzcen{
+	overflow: hidden;
+	width: 600px;
+	position: absolute;
+	bottom:80px;
+}
+.ly-bzdb p{
+	margin-top: 10px;
+	line-height: 26px;
+}
+.ly-bzdb{
+	height: 600px;
+	
+}
+.ly-db{
+	font-size: 38px;
+}
+.ly-jt{
+	width: 110px;
+	height: 110px;
+	background:rgba(255,255,255,0.2) url(../img/jt1.png) center center no-repeat;
+	background-size: 32px 47px;
+	border-radius: 10%;
+	position: absolute;
+	left: 575px;
+	top:210px;
+}
+.ly-cpzs{
+	width: 100%;
+}
+.ly-cpzs{
+	background: #373d41;
+	padding-bottom:60px;
+}
+.lybg{
+	background: #d7d7d8;
+}
+.csbg{
+	background: #c4c4c4;
+}
+.ly-cpfj{
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	padding: 50px 0;
+}
+.ly-zs,.ly-bzdb{
+	width: 1280px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.lylds img:first-child{
+    margin-left: 100px;
+}
+.lylds img {
+    margin-left: 215px;
+}
+.lylds img:last-child {
+    margin-left: 215px;
+}
+.ly-fl{
+	width: 40px;
+	line-height: 300px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	/*background: #373d41;*/
+}
+.ly-fl img{
+	width: 20px;
+}
+.ly-nei{
+	width: 1200px;
+	float: left;
+	overflow:hidden;
+}
+#ss,#ssh{
+	width: 6000px;
+	overflow: hidden;
+}
+#jh,#nh,#jhh,#nhh{
+		overflow: hidden;
+		float: left;
+}
+.ly-fd{
+	position: relative;
+	overflow: hidden;
+}
+.ly-fd,.ly-fd img{
+	width: 300px;
+	height:260px;
+	float: left;
+}
+.ly-pp{
+	width:300px;
+	position: absolute;
+	top: 40px;
+	text-align: center;
+	color: #fff;
+}
+.ly-pp1,.ly-pp2,.ly-pp3,.ly-pp4{
+	height:100px;
+}
+
+.ly-txt{
+	font-size: 20px;
+	top: 160px;
+}
+.ly-tx1{
+	top:200px;
+	font-size: 14px;
+    width: 260px;
+    padding: 0 20px;
+    text-align:center;
+}
+/***************图片放大**************/
+img{
+	transform: scale(1);
+	-webkit-transition: all 0.5s;
+}
+.ly-fd:hover img{
+	transform: scale(1.2);
+}
+.ly-mb{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	background:rgba(0,193,244,0.5);
+	display: none;
+}
+.ly-fd:hover .ly-mb{
+	display: block;
+}
+
+/***************产品展示2************/
+.ly-cp2,.ly-fll{
+	background: #f6f6f6;
+	
+}
+.ly-fll{
+	line-height: 290px;
+}
+.ly-cos{
+	color: #000;
+}
+.ly-f2d,.ly-f2d img{
+	width: 380px;
+	height: 260px;
+	margin-right: 30px;
+}
+.ly-bot{
+	position: absolute;
+	width: 100%;
+	line-height: 81px;
+	text-align: center;
+	background: rgba(255,255,255,0.5);
+	bottom: 0px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.ly-f2d:hover .ly-bot{
+	background: rgba(0,193,224,0.5);
+}
+/*************产品亮点*************/
+.ly-ld1{
+	background: #fff;
+}
+.ly-js{
+	width: 100%;
+	background:#d7d7d8;
+}
+.ly-jcen{
+	width: 1280px;
+	height: 120px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.ly-jcen li{
+	width: 375px;
+	height:89px;
+	background: #ebebec;
+	float: left;
+	padding: 30.5px 0 0 50px;
+}
+.ly-jco{
+	color: #00c1e0;
+	font-size: 20px;
+	font-weight: bold;
+}
+.ly-jcen .ly-dsc{
+	background:#d7d7d8;
+	font-size:12px;
+}
+.ly-jcps{
+	font-size:14px;
+	margin-top: 5px;
+}
+
+/*************标准点播-核心功能-icons*************/
+
+.ly-pp1{	
+	background:url(../img/jp-2.png) center center no-repeat;
+}
+.ly-pp2{
+	background:url(../img/cen2-1.png) center center no-repeat;
+}
+.ly-pp3{
+	background:url(../img/cen3-1.png) center center no-repeat;	
+}
+.ly-pp4{
+	background:url(../img/jp-2.png) center center no-repeat;
+}
+
+/******************************云硬盘*******************************************/
+.cbs-banner{
+	width: 100%;
+	/*height:675px;*/
+	background: url(../img/CBS-banner.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.cbs-icons01, .cbs-icons02, .cbs-icons03, .cbs-icons04, .cbs-icons05{
+	height: 100px;
+}
+.cbs-icons01{
+	background: url(../img/cbsicons01.png) no-repeat center center;
+}
+.cbs-icons02{
+	background: url(../img/cbsicons02.png) no-repeat center center;
+}
+
+.cbs-icons03{
+	background: url(../img/cbsicons03.png) no-repeat center center;
+}
+
+.cbs-icons04{
+	background: url(../img/cbsicons04.png) no-repeat center center;
+}
+
+.cbs-icons05{
+	background: url(../img/cbsicons05.png) no-repeat center center;
+}
+
+/******************************微视频*******************************************/
+.video-banner{
+	width: 100%;
+	height:675px;
+	background: url(../img/video-banner.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.video-icons01, .video-icons02, .video-icons03, .video-icons04, .video-icons05, .video-icons06{
+	height: 100px;
+}
+.video-icons01{
+	background: url(../img/videoicons01.png) no-repeat center center;
+}
+.video-icons02{
+	background: url(../img/videoicons02.png) no-repeat center center;
+}
+.video-icons03{
+	background: url(../img/videoicons03.png) no-repeat center center;
+}
+.video-icons04{
+	background: url(../img/videoicons04.png) no-repeat center center;
+}
+.video-icons05{
+	background: url(../img/videoicons05.png) no-repeat center center;
+}
+.video-icons06{
+	background: url(../img/videoicons06.png) no-repeat center center;
+}
+
+/******************************内容分发网络CDN*******************************************/
+.cdn-banner{
+	width: 100%;
+	height:675px;
+	background: url(../img/cdn-banner.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.cdn-icons01, .cdn-icons02, .cdn-icons03, .cdn-icons04, .cdn-icons05{
+	height: 100px;
+}
+.cdn-icons01{
+	background: url(../img/cdnicons01.png) no-repeat center center;
+}
+.cdn-icons02{
+	background: url(../img/cdnicons02.png) no-repeat center center;
+}
+.cdn-icons03{
+	background: url(../img/cdnicons03.png) no-repeat center center;
+}
+.cdn-icons04{
+	background: url(../img/cdnicons04.png) no-repeat center center;
+}
+.cdn-icons05{
+	background: url(../img/cdnicons05.png) no-repeat center center;
+}
+
+/*********************云存储****************************/
+.CloudStorage-banner{
+	position: relative;
+	width: 100%;
+	height:675px;
+	background: url(../img/CloudStorage-banner.jpg) center center no-repeat ;
+}
+.CloudStorage-nav{
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	bottom: 0;
+	background: rgba(1,106,134,.5);
+	/*background:#016A86;*/
+	/*opacity: 0.5;
+	filter:alpha(opacity=50);  */
+	
+}
+.CloudStorage-nav-width{
+	width: 1280px;
+	height: 60px;
+	margin: 0 auto;	
+}
+.CloudStorage-nav ul li{
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+	line-height: 60px;
+}
+.CloudStorage-nav ul li:hover{
+	background: rgba(0,193,244,.9);
+}
+.CloudStorage-nav ul li a{
+	display: block;
+	width: 100%;
+	line-height: 60px;
+	color:#fff;
+}
+.database-active{
+	background: rgba(0,193,244,.9);
+}
+.cloud-txt{
+	width: 1280px;
+	margin:0 auto;
+	padding:30px 50px 20px;
+	box-sizing: border-box;
+}
+.cloud-txt h2{
+	font-size: 26px;
+	color: #00C1E0;
+	line-height: 60px;
+	font-weight: bold;
+}
+.cloud-txt p{
+	font-size: 16px;
+	line-height: 30px;
+}
+.cloud-tx{
+	width: 1280px;
+	margin:0 auto;
+	padding:30px 50px 20px;
+	box-sizing: border-box;
+}
+.cloud-tx h2{
+	font-size: 26px;
+	color: #00C1E0;
+	line-height: 60px;
+	font-weight: bold;
+}
+.cloud-tx p{
+	font-size: 16px;
+	line-height: 30px;
+	color: #000;
+}
+.cloud-pro{
+	margin: 0 auto;
+	width: 1280px;
+	height: auto;
+}
+.cloud-pro ul li{
+	float: left;
+	margin-left:10px;
+	margin-top: 10px;
+	text-align: center;
+	width: 31%;
+}
+.cloud-pro ul li img{
+	margin: 20px auto;
+}
+.cloud-pro ul li .cloud-probg{
+	 background-color: #ebebec;
+	 padding:10px 25px;
+	 text-align: left;
+}
+.cloudheight{
+	height: 85px;
+}
+.cloud-probg h2{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #00c1e0;
+}
+.cloud-probg p{
+	font-size: 14px;
+	color: #3E3E3E;
+	line-height: 26px;
+}
+
+.database-scene{
+	width: 1280px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+.database-scene h2{
+	text-align: center;
+	font-size: 30px;
+	color: #00C1F4;
+	line-height: 60px;
+	padding-bottom: 40px;
+}
+.database-scene ul li{
+	position: relative;
+	float: left;
+	margin: 10px;
+	width: 400px;
+	height: 182px;
+}
+.database-scene ul li img{
+	width: 400px;
+	height: 182px;
+	transform: inherit;
+}
+.database-scene ul li span{
+	position: absolute;
+	width: 400px;
+	height: 50px;
+	background: rgba(26,22,0,.6);
+	color: #fff;
+	line-height: 50px;
+	text-indent: 2rem;
+}
+.cloud-icons01,
+.cloud-icons02, 
+.cloud-icons03, 
+.cloud-icons04, 
+.cloud-icons05, 
+.cloud-icons06, 
+.cloud-icons07, 
+.cloud-icons08, 
+.cloud-icons09, 
+.cloud-icons10,
+.cloud-icons11,
+.cloud-icons12{
+	height: 100px;
+}
+.cloud-icons01{
+	background: url(../img/cloudicons01.png) no-repeat center center;
+}
+.cloud-icons02{
+	background: url(../img/cloudicons02.png) no-repeat center center;
+}
+.cloud-icons03{
+	background: url(../img/cloudicons03.png) no-repeat center center;
+}
+.cloud-icons04{
+	background: url(../img/cloudicons04.png) no-repeat center center;
+}
+.cloud-icons05{
+	background: url(../img/cloudicons05.png) no-repeat center center;
+}
+.cloud-icons06{
+	background: url(../img/cloudicons06.png) no-repeat center center;
+}
+.cloud-icons07{
+	background: url(../img/cloudicons07.png) no-repeat center center;
+}
+.cloud-icons08{
+	background: url(../img/cloudicons08.png) no-repeat center center;
+}
+.cloud-icons09{
+	background: url(../img/cloudicons09.png) no-repeat center center;
+}
+.cloud-icons10{
+	background: url(../img/cloudicons10.png) no-repeat center center;
+}
+.cloud-icons11{
+	background: url(../img/cloudicons11.png) no-repeat center center;
+}
+.cloud-icons12{
+	background: url(../img/cloudicons12.png) no-repeat center center;
+}
+
+
+/*********************传输加速****************************/
+.transfer-banner{
+	position: relative;
+	width: 100%;
+	height:675px;
+	background: url(../img/transfer-banner.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.transfer-icons01,
+.transfer-icons02, 
+.transfer-icons03, 
+.transfer-icons04, 
+.transfer-icons05, 
+.transfer-icons06, 
+.transfer-icons07, 
+.transfer-icons08, 
+.transfer-icons09, 
+.transfer-icons10,
+.transfer-icons11,
+.transfer-icons12{
+	height: 100px;
+}
+.transfer-icons01{
+	background: url(../img/transfericons01.png) no-repeat center center;
+}
+.transfer-icons02{
+	background: url(../img/transfericons02.png) no-repeat center center;
+}
+.transfer-icons03{
+	background: url(../img/transfericons03.png) no-repeat center center;
+}
+.transfer-icons04{
+	background: url(../img/transfericons04.png) no-repeat center center;
+}
+.transfer-icons05{
+	background: url(../img/transfericons05.png) no-repeat center center;
+}
+.transfer-icons06{
+	background: url(../img/transfericons06.png) no-repeat center center;
+}
+.transfer-icons07{
+	background: url(../img/transfericons07.png) no-repeat center center;
+}
+.transfer-icons08{
+	background: url(../img/transfericons08.png) no-repeat center center;
+}
+.transfer-icons09{
+	background: url(../img/transfericons09.png) no-repeat center center;
+}
+.transfer-icons10{
+	background: url(../img/transfericons10.png) no-repeat center center;
+}
+.transfer-icons11{
+	background: url(../img/transfericons11.png) no-repeat center center;
+}
+.transfer-icons12{
+	background: url(../img/transfericons12.png) no-repeat center center;
+}

@@ -1,0 +1,70 @@
+.ly-zs,.ly-bzdb{
+	width: 998px;
+	margin: 80px auto 100px;
+	overflow: hidden;
+}
+.lylds img {
+    margin-left: 163px;
+}
+.ly-fl{
+	width: 40px;
+	line-height: 300px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+}
+.ly-fl img{
+	width: 20px;
+}
+.ly-nei{
+	width:918px;
+	float: left;
+	overflow:hidden;
+}
+#ss,#ssh{
+	width: 6000px;
+	overflow: hidden;
+}
+#jh,#nh,#jhh,#nhh{
+		overflow: hidden;
+		float: left;
+}
+.ly-fd{
+	position: relative;
+	overflow: hidden;
+}
+.ly-fd,.ly-fd img{
+	width: 300px;
+	height:260px;
+	float: left;
+}
+.ly-pp{
+	width:300px;
+	position: absolute;
+	top: 40px;
+	text-align: center;
+	color: #fff;
+}
+
+/*图片放大*/
+img{
+	transform: scale(1);
+	-webkit-transition: all 0.5s;
+}
+.ly-fd:hover img{
+	transform: scale(1.2);
+}
+
+/*产品展示2*/
+
+.ly-fll{
+	line-height: 240px;
+}
+.ly-cos{
+	color: #000;
+}
+.ly-f2d,.ly-f2d img{
+	width:300px;
+	height: 200px;
+	margin-right: 6px;
+}
